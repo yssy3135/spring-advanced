@@ -6,7 +6,6 @@ import org.junit.jupiter.api.Test;
 public class HelloTraceV2Test {
 
 
-
     @Test
     void begin_end() {
         HelloTraceV2 trace = new HelloTraceV2();
