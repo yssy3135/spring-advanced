@@ -1,4 +1,4 @@
-package hello.proxy.concreteproxy.code;
+package hello.proxy.qureproxy.concreteproxy.code;
 
 import lombok.extern.slf4j.Slf4j;
 

@@ -1,8 +1,8 @@
-package hello.proxy.concreteproxy;
+package hello.proxy.qureproxy.concreteproxy;
 
-import hello.proxy.concreteproxy.code.ConcreteClient;
-import hello.proxy.concreteproxy.code.ConcreteLogic;
-import hello.proxy.concreteproxy.code.TimeProxy;
+import hello.proxy.qureproxy.concreteproxy.code.ConcreteClient;
+import hello.proxy.qureproxy.concreteproxy.code.ConcreteLogic;
+import hello.proxy.qureproxy.concreteproxy.code.TimeProxy;
 import org.junit.jupiter.api.Test;
 
 public class ConcreteProxyTest {
