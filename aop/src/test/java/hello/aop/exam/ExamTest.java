@@ -10,7 +10,8 @@ import org.springframework.context.annotation.Import;
 
 @SpringBootTest
 @Slf4j
-@Import(TraceAspect.class)
+//@Import(TraceAspect.class)
+@Import({TraceAspect.class, RetryAspect.class})
 public class ExamTest {
 
 
