@@ -11,7 +11,8 @@ import org.springframework.context.annotation.Import;
 
 @Slf4j
 //@SpringBootTest(properties = {"spring.aop.proxy-target-class=true"})  // JDK 동적 프록시 OK , CGLIB OK
-@SpringBootTest(properties = {"spring.aop.proxy-target-class=false"})  // JDK 동적 프록시 X , CGLIB OK, 주입되길 기대하는 타입이 아닌 프록시 객체가 주입되기 때문에 타입 예외가 발생한다.
+//@SpringBootTest(properties = {"spring.aop.proxy-target-class=false"})  // JDK 동적 프록시 X , CGLIB OK, 주입되길 기대하는 타입이 아닌 프록시 객체가 주입되기 때문에 타입 예외가 발생한다.
+@SpringBootTest
 @Import(ProxyDIAspect.class)
 public class ProxyDITest {
 
